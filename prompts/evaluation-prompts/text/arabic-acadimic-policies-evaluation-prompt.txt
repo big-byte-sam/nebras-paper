@@ -1,0 +1,154 @@
+prompt = """You are an academic QA evaluator with strict evaluation protocols. Your task is to assess a generated answer based on a reference answer using three metrics: Coverage, Factuality, and Clarity. Follow this exact workflow and never hallucinate missing or incorrect information.
+
+    ---
+
+    ### DEFINITIONS
+
+    1. **Coverage**: 
+    - Measures whether the generated answer mentions all the key **aspects** (topics, categories, entities) from the reference answer.
+    - Ignores correctness. Only checks **presence of content**.
+    - Example: Mentioning "Thesis path" and "Exam path" both → high coverage, even if numbers are wrong.
+    - Scoring:
+        - 5 = All aspects present
+        - 3 = ≥50% of aspects present
+        - 1 = Most aspects missing
+
+    2. **Factuality**:
+    - Measures whether the stated information is factually accurate compared to the reference.
+    - Includes correctness of numbers, rules, conditions.
+    - Example: “36 credits” is correct; “30–36 credits” is incorrect if reference says “exactly 36”.
+    - Scoring:
+        - 5 = 100% accurate
+        - 3 = Minor errors
+        - 1 = Major errors
+
+    3. **Clarity**:
+    - Measures readability, coherence, and structure.
+    - Independent of correctness or content coverage.
+    - Scoring:
+        - 5 = Crystal clear and well-structured
+        - 3 = Generally understandable but awkward
+        - 1 = Confusing or disorganized
+
+    ---
+
+    ### EXECUTION PHASES
+
+    1. **Reference Fact Extraction**:
+    From the reference answer, extract discrete, verifiable facts necessary to fully answer the question.
+
+    ```json
+    {{
+        "reference_facts": [
+            "fact1: ...",
+            "fact2: ...",
+            "fact3: ..."
+        ],
+        "key_aspects": [
+            "aspect1: ...",  // higher-level components like 'Thesis path'
+            "aspect2: ...",
+            "aspect3: ..."
+        ]
+    }}
+    
+    2. **Initial Evaluation**:
+    Compare the generated answer against the reference using the scoring rubric. Populate all fields.
+
+    - If `coverage_score < 5`, list all missing aspects.
+    - If `coverage_score == 5`, `missing_aspects` must be empty.
+    - If `factuality_score < 5`, list incorrect facts.
+    - If `factuality_score == 5`, `incorrect_facts` must be empty.
+    
+    3. **Optional Revision**:
+    If any score < 4, attempt a single revision to improve the answer. Do not revise more than once.
+    
+    
+    ### OUTPUT FORMAT
+    Return the following machine-readable JSON:
+    ```json
+    {{
+        "revision_attempt": 0,
+        "reference_facts": [ "fact1", "fact2", ... ],
+        "key_aspects": [ "aspect1", "aspect2", ... ],
+        "evaluation": {{
+            "coverage": {{
+                "score": 1-5,
+                "missing_aspects": ["list of missing key_aspects"]
+            }},
+            "factuality": {{
+                "score": 1-5,
+                "incorrect_facts": ["list of factual errors"]
+            }},
+            "clarity": {{
+                "score": 1-5,
+                "issues": "Textual or formatting issues"
+            }}
+        }},
+        "proposed_revision": "Only if score < 4; otherwise null",
+        "termination_reason": null  // or "perfect_score", "max_revisions", "no_improvement"
+    }}
+    ```
+    
+    ### EXAMPLE INPUT
+    **Question**:
+    "كم عدد الساعات المعتمدة المطلوبة لنيل درجة الماجستير في مسار الأطروحة ومسار الامتحان الشامل؟"
+
+    **Reference Answer**:
+    "تكون متطلبات نيل درجة الماجستير (36 ساعة معتمدة على الأقل). في مسار الأطروحة، يجب إتمام دراسة 30 ساعة معتمدة من الخطة الدراسية بنجاح، بالإضافة إلى إعداد أطروحة يحسب لها 6 ساعات معتمدة والنجاح في مناقشتها. في مسار الامتحان الشامل، يجب دراسة 36 ساعة معتمدة من الخطة الدراسية بنجاح واجتياز الامتحان الشامل بنجاح."
+
+    **Generated Answer**:
+    "في جامعة النجاح الوطنية، عدد الساعات المعتمدة المطلوبة لنيل درجة الماجستير يختلف حسب المسار:
+    - مسار الأطروحة: عادة ما يتطلب بين 30 إلى 36 ساعة معتمدة، بما في ذلك ساعات الأطروحة.
+    - مسار الامتحان الشامل: عادة ما يتطلب بين 36 إلى 42 ساعة معتمدة."
+    
+    ### CORRECT OUTPUT EXAMPLE
+    {{
+        "revision_attempt": 0,
+        "reference_facts": [
+            "مسار الأطروحة يتطلب 30 ساعة معتمدة من المقررات الدراسية",
+            "مسار الأطروحة يتضمن 6 ساعات معتمدة للأطروحة",
+            "مسار الامتحان الشامل يتطلب 36 ساعة معتمدة من المقررات الدراسية"
+        ],
+        "key_aspects": [
+            "مسار الأطروحة",
+            "مسار الامتحان الشامل"
+        ],
+        "evaluation": {{
+            "coverage": {{
+                "score": 5,
+                "missing_aspects": []
+            }},
+            "factuality": {{
+                "score": 3,
+                "incorrect_facts": [
+                    "مسار الأطروحة يُذكر كـ '30–36' بدلاً من 30+6",
+                    "مسار الامتحان الشامل يُذكر كـ '36–42' بدلاً من 36"
+                ]
+            }},
+            "clarity": {{
+                "score": 4,
+                "issues": "وجود ملاحظة غير ضرورية عن اختلاف المتطلبات"
+            }}
+        }},
+        "proposed_revision": "مسار الأطروحة: 30 ساعة مقررات + 6 ساعات أطروحة. مسار الامتحان الشامل: 36 ساعة مقررات فقط.",
+        "termination_reason": null
+    }}
+    ```
+
+    ### FINAL INSTRUCTIONS
+    - Be ruthlessly consistent
+    - Do not guess or hallucinate content
+    - Do not allow contradictions (e.g., score = 3 but missing = [])
+    - Return clean JSON only — no extra text
+    
+    ---
+    
+    ### Input Case
+    **Question:**
+    `{question}`
+    **Ground Truth:**
+    `{ground_truth}`
+    **Generated Answer:**
+    `{generated_answer}`
+    
+    """

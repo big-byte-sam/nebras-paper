@@ -1,0 +1,999 @@
+question,answer,generated_answer,completeness,completeness_missing_facts,accuracy,accuracy_incorrect_facts,clarity,clarity_issues,proposed_revision,raw_response,response_status,reference_facts,coverage,coverage_missing_aspects,factuality,factuality_incorrect_facts
+كم عدد الساعات المعتمدة المطلوبة لنيل درجة الماجستير في مسار الأطروحة ومسار الامتحان الشامل؟,تكون متطلبات نيل درجة الماجستير (36 ساعة معتمدة على الأقل). في مسار الأطروحة، يجب إتمام دراسة 30 ساعة معتمدة على الأقل من الخطة الدراسية بنجاح، بالإضافة إلى إعداد أطروحة يحسب لها 6 ساعات معتمدة والنجاح في مناقشتها. في مسار الامتحان الشامل، يجب دراسة 36 ساعة معتمدة على الأقل من الخطة الدراسية بنجاح واجتياز الامتحان الشامل بنجاح.,"عدد الساعات المعتمدة المطلوبة لنيل درجة الماجستير في مسار الأطروحة هو 36 ساعة معتمدة (30 ساعة معتمدة من الخطة الدراسية + 6 ساعات معتمدة للأطروحة).
+
+عدد الساعات المعتمدة المطلوبة لنيل درجة الماجستير في مسار الامتحان الشامل هو 36 ساعة معتمدة.
+ ",0,,0,,5,,,"<think>
+Alright, let's tackle this evaluation step by step. First, I need to understand the question and the reference answer provided. The question asks about the number of credited hours required for a master's degree in two paths: thesis and comprehensive exam. The reference answer clearly states that for the thesis path, it's 30 hours of coursework plus 6 for the thesis, totaling 36. For the exam path, it's 36 hours of coursework plus passing the exam.
+
+Now, looking at the generated answer, it correctly mentions 36 hours for the thesis path, breaking it down into 30 + 6. It also correctly states 36 hours for the exam path. So, both key aspects (thesis and exam paths) are covered. 
+
+Next, factuality. The generated answer accurately reflects the numbers from the reference, so there are no incorrect facts here. 
+
+Clarity-wise, the generated answer is clear and well-structured, making it easy to understand. It presents the information in a straightforward manner without any unnecessary details.
+
+Since all aspects are covered, facts are accurate, and clarity is good, the scores should be high across the board. There's no need for a revision because the answer is already spot on.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""مسار الأطروحة يتطلب 30 ساعة معتمدة من المقررات الدراسية"",
+        ""مسار الأطروحة يتضمن 6 ساعات معتمدة للأطروحة"",
+        ""مسار الامتحان الشامل يتطلب 36 ساعة معتمدة من المقررات الدراسية""
+    ],
+    ""key_aspects"": [
+        ""مسار الأطروحة"",
+        ""مسار الامتحان الشامل""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 5,
+            ""incorrect_facts"": []
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": null,
+    ""termination_reason"": ""perfect_score""
+}
+```",SUCCESS,"['مسار الأطروحة يتطلب 30 ساعة معتمدة من المقررات الدراسية', 'مسار الأطروحة يتضمن 6 ساعات معتمدة للأطروحة', 'مسار الامتحان الشامل يتطلب 36 ساعة معتمدة من المقررات الدراسية']",5,[],5,[]
+ما هي المدة الزمنية القصوى لإنهاء المساقات الاستدراكية؟,على الطالب أن ينهي المساقات الاستدراكية في موعد أقصاه نهاية الفصل الثاني من التحاقه بالبرنامج.,"المدة الزمنية القصوى لإنهاء المساقات الاستدراكية هي سبع فصول دراسية، ويمكن تمديدها إلى فصل دراسي ثامن بقرار من مجلس العمداء.
+ ",0,,0,,4,الجواب يحتوي على معلومات غير دقيقة عن التمديد، مما قد يسبب ارتباكًا,,"<think>
+Alright, I'm going to evaluate the generated answer based on the reference answer using the given metrics: Coverage, Factuality, and Clarity. Let's start by understanding the question and the provided answers.
+
+The question is asking about the maximum duration to complete remedial courses. The reference answer clearly states that the student must finish them by the end of the second semester after joining the program. The generated answer, however, mentions seven academic semesters with a possible extension to an eighth by the Dean's Council.
+
+First, I'll assess Coverage. The reference answer has one key aspect: the time limit is the end of the second semester. The generated answer covers this by mentioning a time frame, but it's incorrect. Since it addresses the aspect, coverage is complete.
+
+Next, Factuality. The reference says the maximum is the end of the second semester, while the generated answer talks about seven to eight semesters. This is a major factual error because it changes the time frame entirely.
+
+For Clarity, the generated answer is clear and well-structured, but it introduces an unnecessary and incorrect extension part, which might confuse the reader.
+
+So, Coverage gets a 5 because all aspects are mentioned. Factuality gets a 1 due to major errors. Clarity scores a 4 because it's mostly clear but has an issue with the extra incorrect information.
+
+I need to propose a revision to correct the factual errors without adding extra information. The revised answer should align with the reference, stating the end of the second semester without mentioning extensions.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""المدة الزمنية القصوى لإنهاء المساقات الاستدراكية هي نهاية الفصل الثاني من التحاق الطالب بالبرنامج""
+    ],
+    ""key_aspects"": [
+        ""المدة الزمنية القصوى لإنهاء المساقات الاستدراكية""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 1,
+            ""incorrect_facts"": [
+                ""المدة الزمنية القصوى المذكورة في الجواب هي سبع فصول دراسية مع إمكانية تمديد إلى فصل دراسي ثامن، مما يتعارض مع المرجع الذي يحدد نهاية الفصل الثاني""
+            ]
+        },
+        ""clarity"": {
+            ""score"": 4,
+            ""issues"": ""الجواب يحتوي على معلومات غير دقيقة عن التمديد، مما قد يسبب ارتباكًا""
+        }
+    },
+    ""proposed_revision"": ""المدة الزمنية القصوى لإنهاء المساقات الاستدراكية هي نهاية الفصل الثاني من التحاق الطالب بالبرنامج."",
+    ""termination_reason"": null
+}
+```",SUCCESS,['المدة الزمنية القصوى لإنهاء المساقات الاستدراكية هي نهاية الفصل الثاني من التحاق الطالب بالبرنامج'],5,[],1,['المدة الزمنية القصوى المذكورة في الجواب هي سبع فصول دراسية مع إمكانية تمديد إلى فصل دراسي ثامن، مما يتعارض مع المرجع الذي يحدد نهاية الفصل الثاني']
+ما هو الحد الأدنى والأعلى للمدة الزمنية المطلوبة لإنهاء متطلبات درجة الماجستير,الحد الأدنى للمدة المطلوبة إلنهاء متطلبات درجة الماجستير ثلاثة فصول دراسية، والحد الأعلى ستة فصول دراسية من بدء انتظام الطالب في البرنامج. ويجوز تمديد هذه الفترة فصلاً دراسياً واحداً بقرار من مجلس الكلية.,"الحد الأدنى للمدة الزمنية المطلوبة لإنهاء متطلبات درجة الماجستير هو ثلاثة فصول دراسية، بينما الحد الأعلى هو ستة فصول دراسية من بدء انتظام الطالب في البرنامج. ومع ذلك، إذا كان الطالب منتقلاً إلى برنامج الماجستير، فإن الحد الأدنى يصبح فصلين دراسيين والحد الأعلى يصبح أربعة فصول دراسية منذ انتقاله.
+ ",0,,0,,3,AWKWARD PHRASING ABOUT TRANSFER STUDENTS,,"<think>
+Alright, I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me start by understanding each step.
+
+First, I'll extract the reference facts and key aspects from the reference answer. The reference says the minimum period is three academic semesters, the maximum is six, and it can be extended by one semester. The key aspects here are the minimum and maximum durations, as well as the extension possibility.
+
+Next, I'll look at the generated answer. It mentions the minimum as three semesters and the maximum as six, which matches the reference. However, it adds information about transfer students, which isn't in the reference. This extra information might be incorrect or irrelevant.
+
+Now, evaluating Coverage: The generated answer covers both the minimum and maximum durations, so all key aspects are present. Coverage score is 5 with no missing aspects.
+
+For Factuality: The correct durations are three and six semesters, which the generated answer gets right. However, it introduces incorrect information about transfer students, so Factuality score is 3 with an incorrect fact listed.
+
+Clarity-wise, the generated answer is clear but adds unnecessary information about transfer students, making it a bit awkward. Clarity score is 3.
+
+Since the Factuality score is 3, I'll propose a revision to remove the incorrect part about transfer students to improve accuracy.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""الحد الأدنى للمدة المطلوبة هي ثلاثة فصول دراسية"",
+        ""الحد الأعلى للمدة المطلوبة هو ستة فصول دراسية"",
+        ""تجوز تمديد الفترة فصلاً دراسياً واحداً""
+    ],
+    ""key_aspects"": [
+        ""الحد الأدنى"",
+        ""الحد الأعلى"",
+        ""تمديد الفترة""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 3,
+            ""incorrect_facts"": [
+                ""INFO ABOUT TRANSFER STUDENTS IS NOT IN REFERENCE""
+            ]
+        },
+        ""clarity"": {
+            ""score"": 3,
+            ""issues"": ""AWKWARD PHRASING ABOUT TRANSFER STUDENTS""
+        }
+    },
+    ""proposed_revision"": ""الحد الأدنى للمدة الزمنية المطلوبة لإنهاء متطلبات درجة الماجستير هو ثلاثة فصول دراسية، بينما الحد الأعلى هو ستة فصول دراسية من بدء انتظام الطالب في البرنامج. ويجوز تمديد هذه الفترة فصلاً دراسياً واحداً بقرار من مجلس الكلية."",
+    ""termination_reason"": null
+}
+```",SUCCESS,"['الحد الأدنى للمدة المطلوبة هي ثلاثة فصول دراسية', 'الحد الأعلى للمدة المطلوبة هو ستة فصول دراسية', 'تجوز تمديد الفترة فصلاً دراسياً واحداً']",5,[],3,['INFO ABOUT TRANSFER STUDENTS IS NOT IN REFERENCE']
+متى يجب على طالب مسار الأطروحة تحديد عنوان أطروحته وتعيين المشرف عليها؟,يتقدم الطالب بطلب تحديد عنوان أطروحته وتعيين مشرف عليها في موعد لا يتجاوز نهاية الفصل الرابع من التحاقه بالبرنامج، شريطة إنجاز ما لا يقل عن 12 ساعة معتمدة من الخطة الدراسية بنجاح، وألا يقل المعدل التراكمي عن 2.8 (باستثناء البرامج التي تحدد معدلاً أعلى).,"يجب على طالب مسار الأطروحة تحديد عنوان أطروحته وتعيين المشرف عليها في موعد لا يتجاوز نهاية الفصل الرابع من تحاقه ببرنامج الماجستير، بعد تحقيق الشروط المحددة، وهي إنجاز ما لا يقل عن 12 ساعة معتمدة من الخطة الدراسية بنجاح، وألا يقل المعدل التراكمي عن 2.8.
+ ",0,,0,,5,,,"<think>
+Alright, I need to evaluate the generated answer based on the reference answer using the metrics of Coverage, Factuality, and Clarity. Let me start by understanding the question and the provided answers.
+
+The question is about when a thesis path student should determine their thesis title and assign a supervisor. The reference answer provides specific details: the deadline is by the end of the fourth semester, with conditions that the student must have completed at least 12 credits successfully and have a cumulative GPA of at least 2.8, except for programs that require a higher GPA.
+
+The generated answer closely mirrors the reference, mentioning the deadline, the 12 credits, and the 2.8 GPA. It also includes a note about exceptions for certain programs, which is present in the reference.
+
+Starting with Coverage: The generated answer covers all key aspects from the reference. It mentions the deadline (end of the fourth semester), the 12 credits, and the GPA requirement. There's also a mention of exceptions for some programs, which is an important aspect. So, Coverage should be a 5 since all key points are present.
+
+Next, Factuality: The generated answer accurately reflects the reference. It correctly states the deadline, the credit requirement, and the GPA. It also correctly notes the exception for certain programs. There are no factual errors here, so Factuality is also a 5.
+
+Now, Clarity: The generated answer is clear and well-structured. It presents the information in a logical sequence, making it easy to understand. The use of commas and the structure of the sentence contribute to its readability. However, the mention of ""after achieving the specified conditions"" could be slightly more concise, but it doesn't hinder understanding. So, Clarity would be a 5.
+
+Since all scores are 5, there's no need for a revision, and the termination reason would be ""perfect_score"".
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""الطالب должен تحديد عنوان أطروحته وتعيين المشرف في موعد لا يتجاوز نهاية الفصل الرابع"",
+        ""شروط تحديد الأطروحة: إنجاز 12 ساعة معتمدة بنجاح"",
+        ""شروط تحديد الأطروحة: المعدل التراكمي لا يقل عن 2.8"",
+        ""استثناء لبرامج قد تحدد معدل أعلى""
+    ],
+    ""key_aspects"": [
+        ""موعد تحديد الأطروحة والمشرف"",
+        ""الشروط المطلوبة (الساعات المعتمدة والمعدل)""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 5,
+            ""incorrect_facts"": []
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": null,
+    ""termination_reason"": ""perfect_score""
+}
+```",SUCCESS,"['الطالب должен تحديد عنوان أطروحته وتعيين المشرف في موعد لا يتجاوز نهاية الفصل الرابع', 'شروط تحديد الأطروحة: إنجاز 12 ساعة معتمدة بنجاح', 'شروط تحديد الأطروحة: المعدل التراكمي لا يقل عن 2.8', 'استثناء لبرامج قد تحدد معدل أعلى']",5,[],5,[]
+متى يتم إنذار الطالب أكاديمياً بسبب معدله التراكمي؟,ينذر الطالب مباشرة من قبل عمادة القبول والتسجيل، ويعلم بذلك إلكترونياً، إذا لم يحصل على الحد الأدنى في المعدل التراكمي للمساقات في أي فصل دراسي.,"يتم إنذار الطالب أكاديمياً بسبب معدله التراكمي إذا لم يرفع الحد الأدنى للمعدل التراكمي للمساقات في الفصلين الدراسيين التاليين للإنذار.
+ ",0,,0,,5,,,"<think>
+Okay, I need to evaluate the generated answer based on the ground truth using the three metrics: Coverage, Factuality, and Clarity. Let me go through each step carefully.
+
+First, I'll extract the reference facts and key aspects from the ground truth. The ground truth says that a student is warned directly by the admissions and registration office and is informed electronically if they don't achieve the minimum cumulative GPA in any academic term. So, the key facts are about who issues the warning, how the student is informed, and the condition based on the minimum GPA in any term.
+
+Next, I'll look at the generated answer. It states that the warning happens if the student doesn't raise their GPA in the next two academic terms after the warning. This seems to add a condition (next two terms) that wasn't in the ground truth, which only mentions any term.
+
+For Coverage: The generated answer mentions the warning and the GPA condition, so it covers the key aspects. Coverage score should be 5 with no missing aspects.
+
+For Factuality: The generated answer introduces a time frame (next two terms) not present in the ground truth. This is a factual error because the ground truth doesn't specify a timeframe. So, Factuality score is 1 with an incorrect fact listed.
+
+For Clarity: The generated answer is clear and well-structured. It's easy to understand, so Clarity score is 5 with no issues.
+
+Since the Factuality score is 1, which is below 4, I should propose a revision. The revision should correct the factual error by removing the incorrect timeframe and aligning with the ground truth.
+
+Putting it all together, the evaluation shows that while the answer is clear and covers all aspects, it has a major factual error that needs correction.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""ينذر الطالب مباشرة من قبل عمادة القبول والتسجيل"",
+        ""يعلم الطالب بذلك إلكترونياً"",
+        ""الإنذار يحدث إذا لم يحصل الطالب على الحد الأدنى في المعدل التراكمي للمساقات في أي فصل دراسي""
+    ],
+    ""key_aspects"": [
+        ""الإنذار الأكاديمي"",
+        ""الشروط المطلوبة""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 1,
+            ""incorrect_facts"": [
+                ""الإنذار يعتمد على الفصلين التاليين للإنذار، بينما المرجع ي提到 أي فصل دراسي""
+            ]
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": ""ينذر الطالب أكاديمياً إذا لم يحصل على الحد الأدنى من المعدل التراكمي في أي فصل دراسي، ويعلم بذلك إلكترونياً من قبل عمادة القبول والتسجيل."",
+    ""termination_reason"": null
+}
+```",SUCCESS,"['ينذر الطالب مباشرة من قبل عمادة القبول والتسجيل', 'يعلم الطالب بذلك إلكترونياً', 'الإنذار يحدث إذا لم يحصل الطالب على الحد الأدنى في المعدل التراكمي للمساقات في أي فصل دراسي']",5,[],1,['الإنذار يعتمد على الفصلين التاليين للإنذار، بينما المرجع ي提到 أي فصل دراسي']
+ممن تتكون لجنة مناقشة الأطروحة؟,المشرف رئيساً (أو المشرف الأول)، وعضو هيئة تدريس متفرغ أو غير متفرغ من الجامعة (ممتحناً داخلياً)، وعضو هيئة تدريس من خارج الجامعة (ممتحناً خارجياً). الحد الأدنى لعدد أعضاء اللجنة ثلاثة، والحد الأعلى خمسة أعضاء.,"تتكون لجنة مناقشة الأطروحة من المشرف رئيسًا، وعضو هيئة تدريس متفرغ أو غير متفرغ من الجامعة، وعضو هيئة تدريس من خارج الجامعة، مع الحفاظ على الحد الأدنى من ثلاثة أعضاء والحد الأقصى من خمسة أعضاء.
+ ",0,,0,,5,,,"<think>
+Okay, I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me go through each step carefully.
+
+First, I'll extract the reference facts and key aspects from the reference answer. The reference says the committee consists of the supervisor as the head, a faculty member from the university (internal examiner), and a faculty member from outside the university (external examiner). It also mentions the minimum and maximum number of members, which are three and five respectively.
+
+So, the reference facts are:
+1. The committee includes the supervisor as the head.
+2. It includes an internal examiner from the university.
+3. It includes an external examiner from outside the university.
+4. The minimum number of members is three.
+5. The maximum number of members is five.
+
+The key aspects here are the composition of the committee and the member limits.
+
+Next, I'll look at the generated answer. It mentions the supervisor as the head, an internal member from the university, and an external member. It also states the minimum of three and maximum of five members. 
+
+For Coverage, the generated answer covers all key aspects: composition (supervisor, internal, external) and member limits (3-5). So, coverage score is 5 with no missing aspects.
+
+Now, checking Factuality. The generated answer correctly states the supervisor as head, includes both internal and external examiners, and correctly mentions the member limits. All facts are accurate, so factuality score is 5 with no incorrect facts.
+
+For Clarity, the generated answer is clear and well-structured. It's easy to understand and follows a logical flow without any confusing parts. So, clarity score is 5 with no issues.
+
+Since all scores are 5, there's no need for a revision. The termination reason is ""perfect_score"".
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""المشرف رئيساً"",
+        ""عضو هيئة تدريس من الجامعة"",
+        ""عضو هيئة تدريس من خارج الجامعة"",
+        ""الحد الأدنى لعدد الأعضاء ثلاثة"",
+        ""الحد الأعلى لعدد الأعضاء خمسة""
+    ],
+    ""key_aspects"": [
+        ""المشرف"",
+        ""عضو هيئة التدريس من الجامعة"",
+        ""عضو هيئة التدريس من خارج الجامعة"",
+        ""الحد الأدنى والحد الأعلى لعدد الأعضاء""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 5,
+            ""incorrect_facts"": []
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": null,
+    ""termination_reason"": ""perfect_score""
+}
+```",SUCCESS,"['المشرف رئيساً', 'عضو هيئة تدريس من الجامعة', 'عضو هيئة تدريس من خارج الجامعة', 'الحد الأدنى لعدد الأعضاء ثلاثة', 'الحد الأعلى لعدد الأعضاء خمسة']",5,[],5,[]
+ما هي مكونات الامتحان الشامل وأوزانها؟,يتكون الامتحان الشامل من جزئين: جزء كتابي يشمل موضوعات ذات صلة بمساقات الخطة الدراسية بوزن (60% من علامة الامتحان)، ومشروع بحث في مجال التخصص بوزن (40% من علامة الامتحان).,"مكونات الامتحان الشامل وأوزانها هي:
+
+1. الجزء الكتابي: يشمل موضوعات ذات صلة بمساقات الخطة الدراسية، ووزنه 60% من علامة الامتحان.
+2. مشروع البحث: في مجال التخصص، ووزنه 40% من علامة الامتحان.
+
+يجب أن يجتاز الطالب الامتحان الشامل بجزئيه مجتمعين بعلامة (C) فأعلى.
+ ",0,,0,,4,存在不必要的额外信息,,"<think>
+Alright, so I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me go through each step carefully.
+
+First, I'll extract the reference facts and key aspects from the ground truth. The ground truth says that the comprehensive exam has two parts: a written part covering relevant course topics worth 60%, and a research project in the specialization area worth 40%. So, the reference facts are the two components with their respective weights, and the key aspects are the written part and the research project.
+
+Next, I'll look at the generated answer. It lists two components: the written part with 60% and the research project with 40%. It also adds an extra sentence about the minimum grade required. 
+
+For Coverage, the generated answer mentions both the written part and the research project, so all key aspects are present. That means the coverage score is 5, and there are no missing aspects.
+
+Moving on to Factuality. The generated answer correctly states the two components and their weights (60% and 40%). However, it adds an extra fact about the minimum grade (C or above). The reference answer doesn't mention this, so that's an incorrect fact. Therefore, the factuality score is 3, and the incorrect fact is noted.
+
+Regarding Clarity, the generated answer is well-structured and easy to understand. It clearly separates the two parts and their weights. The only issue is the additional information about the grade, which isn't necessary but doesn't hinder clarity. So, the clarity score is 4, with a minor issue mentioned.
+
+Since the factuality score is 3, which is below 4, I should propose a revision. The revision should remove the extra information about the grade to align perfectly with the reference answer.
+
+Putting it all together, the evaluation shows high coverage, minor factual errors, and good clarity. The proposed revision aims to correct the factual error by removing the extra sentence.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""الجزء الكتابي: 60% من علامة الامتحان"",
+        ""مشروع البحث: 40% من علامة الامتحان""
+    ],
+    ""key_aspects"": [
+        ""الجزء الكتابي"",
+        ""مشروع البحث""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 3,
+            ""incorrect_facts"": [
+                ""إضافة معلومات غير موجودة في المرجع عن الحد الأدنى من العلامة المطلوبة (C) فأعلى""
+            ]
+        },
+        ""clarity"": {
+            ""score"": 4,
+            ""issues"": ""存在不必要的额外信息""
+        }
+    },
+    ""proposed_revision"": ""الامتحان الشامل يتكون من جزء كتابي (60%) ومشروع بحث (40%)."",
+    ""termination_reason"": null
+}
+```",SUCCESS,"['الجزء الكتابي: 60% من علامة الامتحان', 'مشروع البحث: 40% من علامة الامتحان']",5,[],3,['إضافة معلومات غير موجودة في المرجع عن الحد الأدنى من العلامة المطلوبة (C) فأعلى']
+هل يمكن للطالب الجديد تأجيل دراسته في أول فصل دراسي له في الجامعة؟,لا يجوز للطالب الجديد أن يؤجل دراسته في أول فصل دراسي له في الجامعة، وفي الحالات الاستثنائية يحال الأمر إلى لجنة الإرشاد العليا للبت فيها.,"لا، لا يمكن للطالب الجديد تأجيل دراسته في أول فصل دراسي له في الجامعة، إلا في الحالات الاستثنائية التي يتم فيها حوالة الأمر إلى لجنة الإرشاد العليا للبت فيها.
+ ",0,,0,,5,,,"<think>
+Okay, so I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me break this down step by step.
+
+First, I'll start with the Coverage metric. I need to check if the generated answer covers all the key aspects from the reference. The reference answer mentions two main points: 
+1. It is not allowed for a new student to defer their study in the first semester.
+2. In exceptional cases, the matter is referred to the Higher Guidance Committee for decision.
+
+Looking at the generated answer, it also mentions both points. It states that a new student cannot defer, except in exceptional cases where the matter is referred to the Higher Guidance Committee. So, both aspects are present.
+
+Next, I'll assess Factuality. I need to compare the facts in the generated answer with the reference. The reference says it's not allowed, and in exceptional cases, it's referred to the committee. The generated answer mirrors this exactly, using the same conditions and procedures. There are no factual errors here.
+
+Now, onto Clarity. The generated answer is clear and well-structured. It uses proper language and clearly presents the two scenarios without any confusion. The sentences are coherent and easy to understand.
+
+Since all metrics are perfect, the scores for Coverage, Factuality, and Clarity are all 5. There are no missing aspects or incorrect facts, and the clarity is excellent. Therefore, no revision is needed, and the termination reason is ""perfect_score"".
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""الطالب الجديد لا يمكنه تأجيل دراسته في أول فصل دراسي"",
+        ""الحالات الاستثنائية يتم حوالة الأمر إلى لجنة الإرشاد العليا""
+    ],
+    ""key_aspects"": [
+        ""تأجيل دراسة الطالب الجديد"",
+        ""إجراءات الحالات الاستثنائية""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 5,
+            ""incorrect_facts"": []
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": null,
+    ""termination_reason"": ""perfect_score""
+}
+```",SUCCESS,"['الطالب الجديد لا يمكنه تأجيل دراسته في أول فصل دراسي', 'الحالات الاستثنائية يتم حوالة الأمر إلى لجنة الإرشاد العليا']",5,[],5,[]
+ما هي الحالات المتعلقة بالأطروحة التي قد تؤدي إلى فصل الطالب من برنامج الماجستير؟,يفصل الطالب من برنامج الماجستير في الحالات الآتية المتعلقة بالأطروحة: إذا رسب في مناقشة الأطروحة لمرتين أو إذا لم يحصل على موافقة مجلس الكلية على تحديد عنوان أطروحته والمشرف عليها مع نهاية الفصل السادس.,"هناك حالة متعلقة بالأطروحة قد تؤدي إلى فصل الطالب من برنامج الماجستير، وهي:
+- إذا رسب في مناقشة الأطروحة لمرتين.
+ ",0,,0,,5,,,"<think>
+Alright, let's tackle this evaluation step by step. First, I need to understand the question and the reference answer provided. The question is about the cases related to a thesis that could lead to a student's dismissal from a master's program. The reference answer clearly states two scenarios: failing the thesis defense twice and not obtaining approval from the college council on the thesis title and supervisor by the end of the sixth semester.
+
+Now, looking at the generated answer, it only mentions the first case about failing the thesis defense twice. It completely misses the second case regarding the approval of the thesis title and supervisor. This means the generated answer doesn't cover all the key aspects mentioned in the reference.
+
+Next, I'll evaluate the factuality. The generated answer correctly states the first case but omits the second, so it's partially factual but missing crucial information. Therefore, the factuality score is 3 because it has a minor error due to the missing fact.
+
+For clarity, the generated answer is clear and well-structured. It presents the information in a straightforward manner, so the clarity score is 5.
+
+In terms of coverage, since the generated answer misses one of the two key aspects (the second case), the coverage score is 3. The missing aspect is the failure to mention the approval issue by the sixth semester.
+
+Considering the scores, since both coverage and factuality are below 5, a revision is needed. The proposed revision should include both cases to ensure all key aspects are covered and the facts are accurate.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""يفصل الطالب إذا رسب في مناقشة الأطروحة لمرتين"",
+        ""يفصل الطالب إذا لم يحصل على موافقة مجلس الكلية على تحديد عنوان أطروحته والمشرف عليها مع نهاية الفصل السادس""
+    ],
+    ""key_aspects"": [
+        ""failure in thesis defense twice"",
+        ""no approval from college council""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 3,
+            ""missing_aspects"": [""no approval from college council""]
+        },
+        ""factuality"": {
+            ""score"": 3,
+            ""incorrect_facts"": [""missing the second condition about college council approval""]
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": ""The student may be dismissed if they fail the thesis defense twice or do not obtain college council approval for their thesis title and supervisor by the end of the sixth semester."",
+    ""termination_reason"": null
+}
+```",SUCCESS,"['يفصل الطالب إذا رسب في مناقشة الأطروحة لمرتين', 'يفصل الطالب إذا لم يحصل على موافقة مجلس الكلية على تحديد عنوان أطروحته والمشرف عليها مع نهاية الفصل السادس']",3,['no approval from college council'],3,['missing the second condition about college council approval']
+ما هي الشروط الواجب على الطالب تحقيقها قبل التقدم بطلب لتحديد عنوان الأطروحة وتعيين مشرف عليها؟,على الطالب أن يتقدم بطلب تحديد عنوان أطروحته وتعيين مشرف عليها بعد تحقيق الشروط الآتية: إنجاز ما لا يقل عن 12 ساعة معتمدة من الخطة الدراسية بنجاح، وألا يقل المعدل التراكمي عن (2.8) (مع استثناءات للبرامج التي تحدد معدل أعلى أو البرامج التي لها مسار أطروحة فقط).,"لتحديد عنوان الأطروحة وتعيين مشرف عليها، يجب على الطالب تحقيق شروط محددة. أولًا، يجب أن يكون قد أنجز بنجاح ما لا يقل عن 12 ساعة معتمدة من الخطة الدراسية. ثانيًا، يجب أن يكون معدله التراكمي لا يقل عن 2.8، مع ملاحظة أن بعض البرامج قد تتطلب معدل أعلى من ذلك.
+ ",0,,0,,5,,,"<think>
+Okay, I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let's go through each step as per the instructions.
+
+First, I'll extract the reference facts and key aspects from the reference answer. The reference says the student must complete at least 12 credits successfully and have a minimum cumulative GPA of 2.8, with exceptions for some programs that might require higher or are thesis-only.
+
+So, the key aspects are the two main conditions: completing 12 credits and having a 2.8 GPA. The reference facts are the specific details of these conditions.
+
+Next, I'll look at the generated answer. It mentions completing at least 12 credits and a GPA of 2.8, noting that some programs might require higher. That seems to cover both key aspects, so Coverage should be a 5.
+
+For Factuality, the generated answer accurately states the 12 credits and 2.8 GPA, and correctly mentions exceptions for some programs. So Factuality should also be a 5.
+
+Clarity-wise, the generated answer is clear and well-structured. It presents the information in a logical sequence, first mentioning the credits and then the GPA, and adds the note about exceptions. I don't see any issues with readability, so Clarity should be a 5 as well.
+
+Since all scores are 5, there's no need for a proposed revision, and the termination reason would be ""perfect_score"".
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""الطالب должен أنجز ما لا يقل عن 12 ساعة معتمدة من الخطة الدراسية بنجاح"",
+        ""الطالب يجب أن يكون معدله التراكمي لا يقل عن 2.8"",
+        ""有些项目可能需要更高的GPA或仅限于论文路径的项目""
+    ],
+    ""key_aspects"": [
+        ""إنجاز 12 ساعة معتمدة"",
+        ""معدل تراكمي لا يقل عن 2.8""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 5,
+            ""incorrect_facts"": []
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": null,
+    ""termination_reason"": ""perfect_score""
+}
+```",SUCCESS,"['الطالب должен أنجز ما لا يقل عن 12 ساعة معتمدة من الخطة الدراسية بنجاح', 'الطالب يجب أن يكون معدله التراكمي لا يقل عن 2.8', '有些项目可能需要更高的GPA或仅限于论文路径的项目']",5,[],5,[]
+ما هي الإجراءات المتبعة بعد تسليم الطالب نسخة من أطروحته وقبل المناقشة؟,يسلم الطالب إلى عمادة كلية الدراسات العليا نسخة إلكترونية ونسخة ورقية واحدة من أطروحته، بهدف إجراء فحص الأصالة العلمية. في حال مطابقة الفحص للمواصفات، يقوم الطالب بتسليم عمادة الكلية نسخاً لأعضاء لجنة المناقشة. تقوم الكلية بإرسال النسخ وتلزم الأعضاء بفترة زمنية محددة لقراءتها وإرسال تقرير مفصل,"بعد تسليم الطالب نسخة من أطروحته، تقوم عمادة كلية الدراسات العليا بإجراء فحص الأصالة العلمية. إذا كان الفحص مطابقًا للمواصفات المطلوبة، يقوم الطالب بتسليم نسخ من أطروحته إلى أعضاء لجنة المناقشة. ثم تقوم الكلية بإرسال نسخ من الأطروحة إلى أعضاء لجنة المناقشة، وتحدد لهم فترة زمنية محددة لقراءتها وإرسال تقرير مفصل عنها مع توصيات محددة. بعد ذلك، تتم دراسة تقارير أعضاء لجنة المناقشة، وإذا كانت إيجابية، يتم الإيعاز باستكمال إجراءات المناقشة. إذا كان هناك أي ملاحظات أو حاجة إلى تعديلات، يتم إرسالها إلى المشرف لاتخاذ الإجراءات المناسبة.
+ ",0,,0,,5,,,"<think>
+Alright, so I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me go through each step carefully.
+
+First, I'll extract the reference facts and key aspects from the ground truth. The reference answer mentions that the student submits an electronic and one hard copy of their thesis to the graduate studies deanship for originality check. If the check passes, the student then submits copies to the committee members. The deanship sends these copies and sets a specific period for the members to read and submit a detailed report.
+
+So, the key aspects are:
+1. Submitting copies for originality check.
+2. Submitting copies to committee members after passing the check.
+3. The deanship's role in sending copies and setting a deadline for the report.
+
+Now, looking at the generated answer, it covers submitting the thesis for originality check and then to the committee. It also mentions the deanship sending copies and setting a time frame. However, it adds details about studying the committee reports, positive feedback leading to the next steps, and handling any necessary revisions. These are extra steps not mentioned in the reference, which might affect the factuality score.
+
+For Coverage, the generated answer does mention all key aspects: originality check, submission to committee, and the deanship's role. So coverage should be a 5.
+
+Regarding Factuality, the generated answer introduces additional information about what happens after the reports are received, which isn't in the reference. This means it has some inaccuracies, so Factuality score would be 3.
+
+Clarity-wise, the generated answer is clear and well-structured. It explains the process step-by-step without being confusing, so Clarity should be a 5.
+
+Since the scores are high, I don't need to propose a revision. The termination reason is ""perfect_score"" because all scores are 5 except Factuality, which is 3, but since Coverage and Clarity are perfect, maybe it's better to see if it meets the termination criteria. However, since Factuality isn't perfect, the termination reason might be ""no_improvement"" or just null.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""يسلم الطالب نسخة إلكترونية ونسخة ورقية واحدة من أطروحته إلى عمادة كلية الدراسات العليا."",
+        ""تتم فحص الأصالة العلمية للنسخة."",
+        ""في حال المطابقة، يسلم الطالب نسخاً إلى أعضاء لجنة المناقشة."",
+        ""تурсل الكلية النسخ وتحدد فترة زمنية لقراءتها وإرسال تقرير مفصل.""
+    ],
+    ""key_aspects"": [
+        ""تسليم النسخ للفحص"",
+        ""تسليم النسخ إلى اللجنة"",
+        ""دور الكلية في توزيع النسخ وإعداد التقرير""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 3,
+            ""incorrect_facts"": [
+                ""تضمن الجواب معلومات إضافية عن ما يحدث بعد تقارير اللجنة.""
+            ]
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": null,
+    ""termination_reason"": ""perfect_score""
+}
+```",SUCCESS,"['يسلم الطالب نسخة إلكترونية ونسخة ورقية واحدة من أطروحته إلى عمادة كلية الدراسات العليا.', 'تتم فحص الأصالة العلمية للنسخة.', 'في حال المطابقة، يسلم الطالب نسخاً إلى أعضاء لجنة المناقشة.', 'تурсل الكلية النسخ وتحدد فترة زمنية لقراءتها وإرسال تقرير مفصل.']",5,[],3,['تضمن الجواب معلومات إضافية عن ما يحدث بعد تقارير اللجنة.']
+ماذا يحدث إذا رسب الطالب في مناقشة الأطروحة للمرة الأولى؟,إذا رسب الطالب في مناقشة الأطروحة، يجوز أن يتقدم للمناقشة مرة أخرى، وذلك بعد انقضاء أربعة أشهر على الأقل من موعد المناقشة السابق. (يُعد الطالب راسباً ويفصل إذا رسب في المناقشة لمرتين,"إذا رسب الطالب في مناقشة الأطروحة للمرة الأولى، فإنه يحصل على فرصة ثانية للجلوس لها. يجب أن يتم ذلك في الفصل الدراسي الذي يلي الفصل الذي عقد فيه الامتحان السابق. وهذا يعني أن الطالب سيكون لديه فرصة أخرى لاجتياز مناقشة الأطروحة في الفصل التالي، بشرط الالتزام بالشروط المحددة في التعليمات.
+ ",0,,0,,4,clear but missing key information,,"<think>
+Okay, I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let's start by understanding the question and the reference answer.
+
+The question is about what happens if a student fails their thesis defense for the first time. The reference answer states that the student can retake the defense after at least four months. It also mentions that if the student fails twice, they are considered failing and dismissed.
+
+Now, looking at the generated answer. It says the student gets a second chance in the following academic term, which implies a shorter waiting period than the reference's four months. It doesn't mention the consequence of failing twice, which is an important point.
+
+First, Coverage: The generated answer covers the part about getting a second chance, which is the main aspect. However, it misses the key point about failing twice leading to dismissal. So, the coverage is missing an aspect.
+
+Next, Factuality: The generated answer mentions the second attempt must be in the next academic term, which is incorrect because the reference specifies a four-month wait, not necessarily the next term. Also, it omits the consequence of a second failure, which is a factual error.
+
+Clarity: The generated answer is clear and well-structured, so clarity isn't an issue.
+
+Proposed revision should correct the waiting period and include the consequence of failing twice.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        "" الطالب يمكنه التقدم لمناقشة الأطروحة مرة أخرى بعد أربعة أشهر"",
+        "" الطالب يُعتبر راسباً ويفصل إذا رسب في المناقشة لمرتين""
+    ],
+    ""key_aspects"": [
+        ""فرصة إعادة المناقشة"",
+        ""عقوبة الفشل في المناقشتين""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 3,
+            ""missing_aspects"": [""عقوبة الفشل في المناقشتين""]
+        },
+        ""factuality"": {
+            ""score"": 3,
+            ""incorrect_facts"": [
+                ""الwaiting period is stated as the next academic term instead of four months"",
+                ""omission of the consequence of failing twice""
+            ]
+        },
+        ""clarity"": {
+            ""score"": 4,
+            ""issues"": ""clear but missing key information""
+        }
+    },
+    ""proposed_revision"": ""إذا رسب الطالب في مناقشة الأطروحة للمرة الأولى، يجوز أن يتقدم للمناقشة مرة أخرى بعد أربعة أشهر. الطالب يُعتبر راسباً ويفصل إذا رسب في المناقشة لمرتين."",
+    ""termination_reason"": null
+}
+```",SUCCESS,"[' الطالب يمكنه التقدم لمناقشة الأطروحة مرة أخرى بعد أربعة أشهر', ' الطالب يُعتبر راسباً ويفصل إذا رسب في المناقشة لمرتين']",3,['عقوبة الفشل في المناقشتين'],3,"['الwaiting period is stated as the next academic term instead of four months', 'omission of the consequence of failing twice']"
+ما هو الحد الأقصى والأدنى للعبء الدراسي للطالب في الفصل الدراسي العادي؟,الحد الأقصى للعبء الدراسي للطالب في الفصل الواحد هو (12 ساعة معتمدة)، والحد الأدنى هو (6 ساعات معتمدة).,"الحد الأقصى للعبء الدراسي للطالب في الفصل الدراسي العادي هو 12 ساعة معتمدة، والحد الأدنى هو 6 ساعات معتمدة.
+ ",0,,0,,5,,,"<think>
+Okay, so I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me go through each step carefully.
+
+First, I'll start with the Reference Fact Extraction. The reference answer states two main facts: the maximum course load is 12 credits, and the minimum is 6 credits. So, the key aspects here are the maximum and minimum course loads.
+
+Next, I'll look at the Coverage. The generated answer mentions both the maximum (12) and the minimum (6) course loads. That means it covers all the key aspects, so the coverage score should be 5, and there are no missing aspects.
+
+Moving on to Factuality. The generated answer correctly states the maximum as 12 and the minimum as 6, exactly as in the reference. There are no errors here, so the factuality score is 5, and there are no incorrect facts.
+
+Now, for Clarity. The generated answer is concise and clearly presents the information without any unnecessary details. It's easy to understand and well-structured. I might rate this as a 5, but sometimes even minor issues can affect the score. However, in this case, it's clear and straightforward, so I think a 5 is appropriate.
+
+Since all scores are 5, there's no need for a revision, and the termination reason would be ""perfect_score"".
+
+I should make sure that the JSON output accurately reflects these evaluations without any extra text or mistakes. Let me double-check each part to ensure everything aligns with the protocol.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""الحد الأقصى للعبء الدراسي هو 12 ساعة معتمدة"",
+        ""الحد الأدنى للعبء الدراسي هو 6 ساعة معتمدة""
+    ],
+    ""key_aspects"": [
+        ""الحد الأقصى للعبء الدراسي"",
+        ""الحد الأدنى للعبء الدراسي""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 5,
+            ""incorrect_facts"": []
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": null,
+    ""termination_reason"": ""perfect_score""
+}
+```",SUCCESS,"['الحد الأقصى للعبء الدراسي هو 12 ساعة معتمدة', 'الحد الأدنى للعبء الدراسي هو 6 ساعة معتمدة']",5,[],5,[]
+من هي الجهة المسؤولة عن الموافقة على طلب تأجيل دراسة الطالب؟,تصدر الموافقة على تأجيل دراسة الطالب عن عميد الكلية، بناءً على تنسيب رئيس القسم.,"الجهة المسؤولة عن الموافقة على طلب تأجيل دراسة الطالب هي عميد الكلية، بناء على تنسيب رئيس القسم.
+ ",0,,0,,5,,,"<think>
+Okay, so I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me go through each step carefully.
+
+First, I'll start with extracting the reference facts and key aspects from the reference answer. The reference answer says that the approval for a student's study postponement is issued by the Dean of the College, based on the recommendation of the Department Head. So the key facts are that the Dean is responsible, and the recommendation comes from the Department Head. The key aspects here are the responsible party (Dean) and the process (recommendation from the Department Head).
+
+Next, I'll look at the generated answer. It states that the responsible party is the Dean of the College, based on the recommendation of the Department Head. This matches exactly with the reference answer. So, for Coverage, the generated answer mentions both the Dean and the process involving the Department Head, so Coverage should be a 5 since all aspects are present.
+
+Moving on to Factuality. The generated answer accurately states that the Dean approves the postponement based on the Department Head's recommendation. There are no errors here, so Factuality should also be a 5.
+
+Now, for Clarity. The generated answer is clear and concise. It's well-structured and easy to understand. There are no issues with readability, so Clarity should score a 5 as well.
+
+Since all scores are 5, there's no need for a proposed revision, and the termination reason would be ""perfect_score"".
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""الموافقة على تأجيل دراسة الطالب تصدر عن عميد الكلية"",
+        ""الموافقة بناءً على تنسيب رئيس القسم""
+    ],
+    ""key_aspects"": [
+        ""الجهة المسؤولة"",
+        ""ال过程""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 5,
+            ""incorrect_facts"": []
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": null,
+    ""termination_reason"": ""perfect_score""
+}
+```",SUCCESS,"['الموافقة على تأجيل دراسة الطالب تصدر عن عميد الكلية', 'الموافقة بناءً على تنسيب رئيس القسم']",5,[],5,[]
+ما هي الشروط اللازمة للتحويل إلى مسار الأطروحة إذا كنت مسجلاً في مسار الشامل؟,يشترط للتحويل من مسار الشامل إلى مسار الأطروحة أن تتقدم بطلب التحويل خلال فترة لا تتجاوز نهاية الفصل الرابع من التحاقك بالبرنامج. كما يشترط أن يعتمد عنوان الأطروحة حتى نهاية الفصل الخامس، وإلا تعاد ربطك على مسار الشامل.,"الشروط اللازمة للتحويل إلى مسار الأطروحة إذا كنت مسجلاً في مسار الشامل هي:
+
+1. التقدم بطلب التحويل خلال فترة لا تتجاوز نهاية الفصل الرابع من التحاقك بالبرنامج.
+2. يجب أن يعتمد عنوان الأطروحة حتى نهاية الفصل الخامس.
+3. موافقة كلية الدراسات العليا بناء على تنسيب منسق البرنامج واللجنة المختصة.
+ ",0,,0,,5,,,"<think>
+Okay, I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me go through each step carefully.
+
+First, I'll extract the reference facts and key aspects from the reference answer. The reference mentions two main conditions: applying for the thesis track by the end of the fourth semester and having the thesis title approved by the end of the fifth semester. If these aren't met, the student is switched back to the comprehensive exam track.
+
+Next, I'll look at the generated answer. It lists three points: applying by the end of the fourth semester, thesis title approval by the fifth semester, and approval from the graduate college based on coordination by the program coordinator and the relevant committee.
+
+For Coverage, the generated answer covers both key aspects mentioned in the reference (applying by the fourth semester and thesis approval by the fifth). However, it adds an extra condition about the graduate college's approval, which wasn't in the reference. So, Coverage should be a 5 since all necessary aspects are present, but I note the extra aspect as an addition.
+
+Moving on to Factuality. The generated answer correctly states the two main conditions from the reference. However, it adds a third condition about the graduate college's approval, which isn't in the reference. This makes the factuality score a 3 because there's an incorrect fact introduced.
+
+For Clarity, the answer is well-structured and clear. Each condition is listed numerically, making it easy to understand. There are no major issues with readability, so I'll give a score of 5 here.
+
+Since the Factuality score is 3, I should propose a revision to remove the incorrect fact about the graduate college's approval. The revised answer should only include the two correct conditions from the reference.
+
+Finally, I'll compile all this into the required JSON format, ensuring that all scores and issues are accurately represented without any extra text.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""التحويل من مسار الشامل إلى مسار الأطروحة يتطلب التقدم بطلب التحويل خلال فترة لا تتجاوز نهاية الفصل الرابع"",
+        ""يجب أن يعتمد عنوان الأطروحة حتى نهاية الفصل الخامس"",
+        ""إذا لم يتم ذلك تعاد ربط الطالب على مسار الشامل""
+    ],
+    ""key_aspects"": [
+        ""التحويل من مسار الشامل إلى مسار الأطروحة"",
+        ""الشروط اللازمة للتحويل""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 3,
+            ""incorrect_facts"": [
+                ""شروط موافقة كلية الدراسات العليا لم تُشَر إلى في المرجع""
+            ]
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": ""الشروط اللازمة للتحويل إلى مسار الأطروحة هي: 1. التقدم بطلب التحويل خلال فترة لا تتجاوز نهاية الفصل الرابع. 2. يجب أن يعتمد عنوان الأطروحة حتى نهاية الفصل الخامس. إذا لم يتم ذلك تعاد ربط الطالب على مسار الشامل."",
+    ""termination_reason"": null
+}
+```",SUCCESS,"['التحويل من مسار الشامل إلى مسار الأطروحة يتطلب التقدم بطلب التحويل خلال فترة لا تتجاوز نهاية الفصل الرابع', 'يجب أن يعتمد عنوان الأطروحة حتى نهاية الفصل الخامس', 'إذا لم يتم ذلك تعاد ربط الطالب على مسار الشامل']",5,[],3,['شروط موافقة كلية الدراسات العليا لم تُشَر إلى في المرجع']
+ما هي النتائج المحتملة التي يمكن أن تقررها لجنة المناقشة بعد انتهاء المناقشة؟,تقرر اللجنة بأغلبية أعضائها إحدى النتائج الآتية: ناجح مع إجراء تعديلات ثانوية، أو ناجح مع إجراء تعديلات جوهرية، أو راسب.,"تجتمع لجنة المناقشة بعد انتهاء المناقشة وتقرر بأغلبية أعضائها إحدى النتائج التالية: 
+
+1. ناجح مع إجراء تعديلات ثانوية: في هذه الحالة، يُطلب من الطالب إجراء تعديلات ثانوية على الأطروحة، ويكون له شهران من تاريخ المناقشة لإجراء هذه التعديلات.
+
+2. ناجح مع إجراء تعديلات جوهرية: في هذه الحالة، يُطلب من الطالب إجراء تعديلات جوهرية على الأطروحة، ويكون له أربعة أشهر من تاريخ المناقشة لإجراء هذه التعديلات، ثم تعرض الأطروحة مرة أخرى على لجنة المناقشة.
+
+3. راسب: في هذه الحالة، يُعلن الطالب راسبًا ولا يتمكن من الحصول على الدرجة العلمية المطلوبة.
+ ",0,,0,,4,ال STRUCTURE جيدة، لكن هناك معلومات إضافية غير ضرورية,,"<think>
+Okay, so I'm trying to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me go through each step carefully.
+
+First, I need to extract the reference facts and key aspects from the ground truth. The ground truth states that the committee can decide one of three outcomes: passing with minor revisions, passing with major revisions, or failing. So, the reference facts are each of these outcomes, and the key aspects are each of the three possible results.
+
+Next, looking at the generated answer, it lists the same three outcomes: minor revisions, major revisions, and failing. So, coverage should be a 5 since all key aspects are present.
+
+For factuality, I compare each fact in the generated answer with the reference. The generated answer correctly mentions the three outcomes. However, it adds extra details about the timeframes for revisions and the need to resubmit after major changes. The reference doesn't mention these specifics, so that's an addition, but it's accurate. Wait, no, the reference doesn't provide these details, so including them might be considered factual errors because they weren't in the reference. Alternatively, if the reference is the only source, then any extra info is incorrect. So, the generated answer introduces information not present in the reference, which could be a minor error.
+
+Clarity-wise, the generated answer is well-structured, listing each outcome with clear explanations. The only issue is that it adds extra information which might make it a bit longer but doesn't affect clarity much. So clarity is good, maybe a 4.
+
+Now, putting it all together. Coverage is 5, factuality might be 3 due to the extra details, and clarity is 4. The proposed revision would be to remove the extra info to match the reference exactly.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""ناجح مع إجراء تعديلات ثانوية"",
+        ""ناجح مع إجراء تعديلات جوهرية"",
+        ""راسب""
+    ],
+    ""key_aspects"": [
+        ""ناجح مع إجراء تعديلات ثانوية"",
+        ""ناجح مع إجراء تعديلات جوهرية"",
+        ""راسب""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 3,
+            ""incorrect_facts"": [
+                ""أضاف تفاصيل زائدة عن إجراء التعديلات وفرق التوقيتات التي لم تُذكر في المرجع""
+            ]
+        },
+        ""clarity"": {
+            ""score"": 4,
+            ""issues"": ""ال STRUCTURE جيدة، لكن هناك معلومات إضافية غير ضرورية""
+        }
+    },
+    ""proposed_revision"": ""تقرر لجنة المناقشة إحدى النتائج التالية: ناجح مع تعديلات ثانوية، ناجح مع تعديلات جوهرية، أو راسب."",
+    ""termination_reason"": null
+}
+```",SUCCESS,"['ناجح مع إجراء تعديلات ثانوية', 'ناجح مع إجراء تعديلات جوهرية', 'راسب']",5,[],3,['أضاف تفاصيل زائدة عن إجراء التعديلات وفرق التوقيتات التي لم تُذكر في المرجع']
+كم المدة المسموحة لي لإجراء التعديلات على الأطروحة بعد المناقشة؟,إذا كانت التعديلات ثانوية تكون المدة شهرين من تاريخ المناقشة. إذا كانت التعديلات جوهرية، تمنح أربعة أشهر من تاريخ المناقشة.,"تحدد المدة المسموحة لإجراء التعديلات على الأطروحة بعد المناقشة بناءً على نوع التعديلات المطلوبة. إذا كانت التعديلات ثانوية، تكون المدة المسموحة شهرين من تاريخ المناقشة. أما إذا كانت التعديلات جوهرية، فيمكن أن تصل المدة المسموحة إلى أربعة أشهر من تاريخ المناقشة، وستخضع الأطروحة بعد إجراء التعديلات إلى مناقشة مرة أخرى.
+ ",0,,0,,5,,,"<think>
+Alright, I need to evaluate the generated answer based on the ground truth using the three metrics: Coverage, Factuality, and Clarity. 
+
+First, I'll extract the reference facts from the ground truth. The ground truth states two main facts: minor revisions take two months, and major revisions take four months. So, the reference facts are:
+1. Minor revisions: 2 months.
+2. Major revisions: 4 months.
+
+Next, the key aspects are the two types of revisions, so the key aspects are:
+1. Minor revisions
+2. Major revisions
+
+Now, evaluating the generated answer. It mentions both minor and major revisions, so coverage is complete. No aspects are missing, so coverage score is 5.
+
+Looking at factuality, the generated answer accurately states the durations: two months for minor and up to four months for major. It also correctly mentions that after major revisions, the thesis will be discussed again. So, factuality is accurate, score 5.
+
+For clarity, the generated answer is well-structured and clear. It explains the durations and the process clearly, so clarity score is 5.
+
+Since all scores are 5, no revision is needed, and the termination reason is ""perfect_score"".
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""التعديلات الثانوية: 2 أشهر"",
+        ""التعديلات الجوهرية: 4 أشهر""
+    ],
+    ""key_aspects"": [
+        ""التعديلات الثانوية"",
+        ""التعديلات الجوهرية""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 5,
+            ""incorrect_facts"": []
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": null,
+    ""termination_reason"": ""perfect_score""
+}
+```",SUCCESS,"['التعديلات الثانوية: 2 أشهر', 'التعديلات الجوهرية: 4 أشهر']",5,[],5,[]
+هل يجب علي عرض الأطروحة المعدلة على اللجنة مرة أخرى؟,نعم، تعرض الأطروحة بعد إجراء التعديلات مرة أخرى على لجنة المناقشة. تعتبر ناجحاً إذا وافقت اللجنة على التعديل، وراسـباً إذا لم توافق اللجنة مجتمعة.,"نعم، يجب عليك عرض الأطروحة المعدلة على اللجنة مرة أخرى إذا كانت التعديلات المطلوبة جوهرية. بعد إجراء التعديلات، ستعرض الأطروحة على لجنة المناقشة مرة أخرى، وستُعتبر ناجحة إذا وافقت اللجنة على التعديلات، أو راسبة إذا لم توافق اللجنة على التعديلات.
+ ",0,,0,,4,إضافة شرط غير ضروري عن التعديلات الجوهرية,,"<think>
+Okay, I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me go through each step carefully.
+
+First, I'll start with the Reference Fact Extraction. The reference answer mentions that after making the required modifications, the thesis must be presented again to the discussion committee. It also states that the thesis is considered successful if the committee approves the modifications and failed if they don't. So, the key facts are about presenting the modified thesis to the committee again and the outcomes based on their approval or disapproval. The key aspects here are the requirement to resubmit and the evaluation criteria based on the committee's decision.
+
+Next, I'll assess Coverage. The generated answer talks about resubmitting the thesis if the modifications are substantial, mentions presenting it again to the committee, and the outcomes of success or failure based on the committee's approval. It covers both the resubmission and the evaluation criteria, so all key aspects are present. Therefore, the coverage score is 5 with no missing aspects.
+
+Moving on to Factuality. The reference answer states that the thesis must be resubmitted regardless of the type of modifications, not just if they're substantial. The generated answer introduces a condition (""if the required modifications are substantial""), which isn't in the reference. Also, the reference doesn't specify that the committee must agree collectively, but the generated answer says ""if the committee approves the modifications"" and ""if the committee does not approve."" The reference uses ""collective agreement,"" so the generated answer is slightly off. These are minor errors, so the factuality score is 3 with incorrect facts noted.
+
+For Clarity, the generated answer is clear and well-structured. It explains the process and outcomes clearly, but it adds an unnecessary condition about ""substantial"" modifications. However, it's still understandable, so the clarity score is 4 with an issue about the additional condition.
+
+Since the factuality score is 3, which is less than 4, I need to propose a revision. The revision should remove the unnecessary condition and align the evaluation criteria exactly with the reference.
+
+Putting it all together, the JSON output will reflect these evaluations with appropriate scores, missing aspects, incorrect facts, and the proposed revision.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""يجب عرض الأطروحة المعدلة على لجنة المناقشة مرة أخرى"",
+        ""تعتبر الأطروحة ناجحة إذا وافقت اللجنة على التعديل"",
+        ""تعتبر الأطروحة راسبة إذا لم توافق اللجنة على التعديل""
+    ],
+    ""key_aspects"": [
+        ""عرض الأطروحة المعدلة على اللجنة مرة أخرى"",
+        ""تقييم نتيجة الأطروحة بعد التعديل""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 3,
+            ""incorrect_facts"": [
+                ""شروط التعديلات الجوهرية ليست في المرجع"",
+                ""المرجع لا ي提 إلى موافقة اللجنة 集体""
+            ]
+        },
+        ""clarity"": {
+            ""score"": 4,
+            ""issues"": ""إضافة شرط غير ضروري عن التعديلات الجوهرية""
+        }
+    },
+    ""proposed_revision"": ""يجب عليك دائماً عرض الأطروحة المعدلة على اللجنة مرة أخرى. تعتبر ناجحة إذا وافقت اللجنة على التعديل، وراسبة إذا لم توافق اللجنة."",
+    ""termination_reason"": null
+}
+```",SUCCESS,"['يجب عرض الأطروحة المعدلة على لجنة المناقشة مرة أخرى', 'تعتبر الأطروحة ناجحة إذا وافقت اللجنة على التعديل', 'تعتبر الأطروحة راسبة إذا لم توافق اللجنة على التعديل']",5,[],3,"['شروط التعديلات الجوهرية ليست في المرجع', 'المرجع لا ي提 إلى موافقة اللجنة 集体']"
+متى يحق لي التقدم بطلب لتحديد مساري في الماجستير (أطروحة أو شامل)؟,يحق لك التقدم بطلب إلكتروني لتحديد المسار (أطروحة أو شامل) بعد أن تنهي دراسة (12) ساعة معتمدة بنجاح.,"عذرًا، لا أمتلك المعلومات الكافية حول هذا الموضوع.
+ ",0,,0,,3,الجواب واضح لكنه غير مفيد,,"<think>
+Okay, so I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me start by understanding each part of the process.
+
+First, I'll extract the reference facts and key aspects from the ground truth. The ground truth says that a student can apply to choose their master's path (thesis or comprehensive exam) after successfully completing 12 credited hours. So, the key facts are the requirement of 12 credited hours and the two paths (thesis or comprehensive). The key aspects are the eligibility criteria and the two paths.
+
+Next, I'll look at the generated answer. It says, ""Sorry, I don't have enough information about this topic."" This means the answer doesn't provide any specific details related to the question.
+
+For Coverage, since the generated answer doesn't mention the 12 credited hours or the two paths, it's missing both key aspects. So, the coverage score should be 1, and the missing aspects are both the eligibility criteria and the paths.
+
+Factuality isn't applicable here because the generated answer doesn't provide any facts, so it can't be correct or incorrect. But according to the rubric, if the score is less than 5, I need to list incorrect facts. However, since there are no facts provided, I might have to handle this case differently. Maybe the factuality score is 1 because it's entirely incorrect in terms of providing no information.
+
+Clarity-wise, the answer is clear in stating that it lacks information, but it's not providing any useful content. So, clarity might be a 3 because it's understandable but not helpful.
+
+Since all scores are below 4, I should attempt a revision. The proposed revision should include the correct information from the ground truth.
+
+Putting it all together, the JSON output should reflect these evaluations with appropriate scores and missing aspects.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""يحق التقدم لتحديد المسار بعد إكمال 12 ساعة معتمدة بنجاح"",
+        ""المساران المتاحان هما مسار الأطروحة ومسار الامتحان الشامل""
+    ],
+    ""key_aspects"": [
+        ""الشروط المطلوبة للتقدم لتحديد المسار"",
+        ""المساران المتاحان (أطروحة أو شامل)""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 1,
+            ""missing_aspects"": [
+                ""الشروط المطلوبة للتقدم لتحديد المسار"",
+                ""المساران المتاحان (أطروحة أو شامل)""
+            ]
+        },
+        ""factuality"": {
+            ""score"": 1,
+            ""incorrect_facts"": [
+                ""العدم المطلق للمعلومات""
+            ]
+        },
+        ""clarity"": {
+            ""score"": 3,
+            ""issues"": ""الجواب واضح لكنه غير مفيد""
+        }
+    },
+    ""proposed_revision"": ""يحق التقدم لتحديد المسار بعد إكمال 12 ساعة معتمدة بنجاح. المساران المتاحان هما مسار الأطروحة ومسار الامتحان الشامل."",
+    ""termination_reason"": null
+}
+```",SUCCESS,"['يحق التقدم لتحديد المسار بعد إكمال 12 ساعة معتمدة بنجاح', 'المساران المتاحان هما مسار الأطروحة ومسار الامتحان الشامل']",1,"['الشروط المطلوبة للتقدم لتحديد المسار', 'المساران المتاحان (أطروحة أو شامل)']",1,['العدم المطلق للمعلومات']
+هل تحسب علامات المساقات الاستدراكية ضمن المعدل التراكمي للطالب؟,لا، المساقات الاستدراكية لا تحتسب ضمن الساعات المعتمدة المطلوبة للحصول على درجة الماجستير، ولا تدخل علاماتها ضمن معدل الطالب التراكمي.,"نعم، تحسب علامات المساقات الاستدراكية ضمن المعدل التراكمي للطالب. وفقًا للمعلومات المتاحة، المعدل التراكمي يشمل علامات جميع مساقات البرنامج التي درسها الطالب بنجاح أو رسوباً. إذا أعاد الطالب دراسة مساق استدراكي، فإنه سيحسب له العلامة الأعلى في المعدل التراكمي.
+ ",0,,0,,5,,,"<think>
+Okay, so I need to evaluate the generated answer based on the reference answer using the three metrics: Coverage, Factuality, and Clarity. Let me go through each step carefully.
+
+First, I'll start with the Reference Fact Extraction. The reference answer clearly states two main facts: that remedial courses are not counted towards the required credits for a master's degree and that their grades do not affect the student's cumulative GPA. So, the reference_facts would be these two points. The key aspects here are just one: whether remedial courses count towards the GPA.
+
+Next, the Coverage evaluation. The generated answer does mention remedial courses and their impact on the GPA, so it covers the main aspect. Therefore, the coverage score is 5 with no missing aspects.
+
+Now, moving on to Factuality. The reference says remedial courses do not count towards the GPA, but the generated answer says they do. This is a direct contradiction, so there's a major factual error here. The score for factuality would be 1 because the information is incorrect.
+
+For Clarity, the generated answer is clear and well-structured. It explains how the GPA includes all courses and mentions that repeating a remedial course takes the higher grade. So, the clarity score is 5.
+
+Since the factuality score is low (1), I should consider a revision. The proposed revision should correct the factual error by stating that remedial courses do not count towards the cumulative GPA and are not included in the required credits.
+
+Putting it all together, the evaluation shows that while the answer covers the topic and is clear, it has significant factual inaccuracies that need correction.
+</think>
+
+```json
+{
+    ""revision_attempt"": 0,
+    ""reference_facts"": [
+        ""المساقات الاستدراكية لا تحتسب ضمن الساعات المعتمدة المطلوبة للحصول على درجة الماجستير"",
+        ""علامات المساقات الاستدراكية لا تدخل ضمن معدل الطالب التراكمي""
+    ],
+    ""key_aspects"": [
+        ""حساب علامات المساقات الاستدراكية في المعدل التراكمي""
+    ],
+    ""evaluation"": {
+        ""coverage"": {
+            ""score"": 5,
+            ""missing_aspects"": []
+        },
+        ""factuality"": {
+            ""score"": 1,
+            ""incorrect_facts"": [
+                ""المساقات الاستدراكية تحسب في المعدل التراكمي"",
+                ""علامات المساقات الاستدراكية تؤثر على المعدل التراكمي""
+            ]
+        },
+        ""clarity"": {
+            ""score"": 5,
+            ""issues"": """"
+        }
+    },
+    ""proposed_revision"": ""المساقات الاستدراكية لا تحسب ضمن الساعات المعتمدة المطلوبة للحصول على درجة الماجستير، ولا تدخل علاماتها في حساب المعدل التراكمي للطالب."",
+    ""termination_reason"": null
+}
+```",SUCCESS,"['المساقات الاستدراكية لا تحتسب ضمن الساعات المعتمدة المطلوبة للحصول على درجة الماجستير', 'علامات المساقات الاستدراكية لا تدخل ضمن معدل الطالب التراكمي']",5,[],1,"['المساقات الاستدراكية تحسب في المعدل التراكمي', 'علامات المساقات الاستدراكية تؤثر على المعدل التراكمي']"
