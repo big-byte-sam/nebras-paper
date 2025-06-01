@@ -42,6 +42,7 @@ prompt = """
     قم بتحليل الأسئلة التالية وحدد ما إذا كانت متعلقة بـ: {titles_str}، أو غير ذات صلة. أجب باستخدام اسم المجموعة التصنيفي المناسب ({names_str}  أو irrelevant). قدم النتيجة بتنسيق JSON.
     
     مثال للنتيجة:
+    ```json
     {{
         "results": [
             {{"question": "سؤال 1", "category": "{classes_str}/irrelevant"}},
@@ -49,6 +50,7 @@ prompt = """
             {{"question": "سؤال 3", "category": "{classes_str}/irrelevant"}}
         ]
     }}
+    ```
 """
 ```
 
@@ -77,6 +79,7 @@ prompt = """
     Analyze the following questions and determine whether they relate to: {titles_str}, or are irrelevant. Respond using the appropriate classification name ({names_str} or irrelevant). Provide the result in JSON format.
     
     Example output:
+    ```json
     {{
         "results": [
             {{"question": "Question 1", "category": "{classes_str}/irrelevant"}},
@@ -84,5 +87,6 @@ prompt = """
             {{"question": "Question 3", "category": "{classes_str}/irrelevant"}}
         ]
     }}
+    ```
 """
 ```

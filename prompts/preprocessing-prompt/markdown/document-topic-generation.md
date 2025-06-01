@@ -1,0 +1,18 @@
+# Document Topic Generation Prompt:
+
+## Arabic Prompt (used with the LLM):
+```python
+prompt ="""حلل المستند التالي واستخرج وصفًا قصيرًا للموضوع الذي يلخص الفكرة أو التركيز الرئيسي للمستند.
+يجب أن يكون الوصف موجزًا، ويفضل أن يتراوح بين 20-50 كلمة، ويعكس الموضوع الأساسي للنص.
+إليك المستند:
+`{text}`
+"""
+```
+## English translation:
+```python
+prompt="""Analyze the following document and extract a brief description of the topic that summarizes the main idea or focus of the document. 
+The description should be concise, ideally between 20-50 words, and should reflect the core subject of the text. 
+Here is the document: 
+`{text}`
+"""
+```

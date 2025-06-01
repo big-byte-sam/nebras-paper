@@ -7,13 +7,13 @@ This repository supports the research paper:
 **Preprint / DOI:** *Coming soon*  
 **Journal Submission:** *[To Be Determined]*
 
----
+<!-- ---
 
 ## 📄 Abstract
 
 This paper introduces **Nebras**, a generic multi-domain Arabic question answering (QA) system built on a Retrieval-Augmented Generation (RAG) framework with a hybrid retrieval strategy. Nebras addresses persistent challenges in QA, including hallucination and domain-specific reasoning, particularly in Arabic, a morphologically rich and under-resourced language. By orchestrating specialized agents within an Agentic RAG pipeline, Nebras dynamically optimizes each processing stage while leveraging pre-trained large language models without additional fine-tuning, promoting scalability and efficiency.
 
-The system's architecture supports easy extension to new domains through lightweight data integration guidelines. Experiments on two domains—Islamic fatwas (legal opinions by religious leaders) and university help-desk queries—demonstrate that Nebras generates factually accurate, contextually relevant answers and outperforms state-of-the-art models in both automatic metrics and human evaluation.
+The system's architecture supports easy extension to new domains through lightweight data integration guidelines. Experiments on two domains—Islamic fatwas (legal opinions by religious leaders) and university help-desk queries—demonstrate that Nebras generates factually accurate, contextually relevant answers and outperforms state-of-the-art models in both automatic metrics and human evaluation. -->
 
 ---
 
