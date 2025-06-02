@@ -3,9 +3,9 @@
 This repository supports the research paper:
 
 **Title:** *Nebras: A Generic Multi-domain Agentic RAG-based Arabic Question Answering System*  
-**Authors:** [Your Name(s)]  
+**Authors:** Samer Al-Huwari / Hamed Abdelhaq* / Fadi Mohsen  
 **Preprint / DOI:** *Coming soon*  
-**Journal Submission:** *[To Be Determined]*
+**Journal Submission:** *Computational Linguistics Journal*
 
 <!-- ---
 
